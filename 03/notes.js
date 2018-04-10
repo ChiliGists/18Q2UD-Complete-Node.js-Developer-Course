@@ -2,4 +2,7 @@ console.log("Starting notes.js");
 
 // console.log(module);
 
-module.exports.age = 59;
+module.exports.add = (a, b) => {
+    console.log(`adding ${a} plus ${b}`);
+    return a + b;
+};
