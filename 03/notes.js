@@ -48,12 +48,11 @@ var removeNote = title => {
   return notes.length !== filteredNotes.length;
 };
 
-var logNote = (note, msg1, msg2) => {
-  if (note) {
-    console.log("--");
-    console.log(`Title: ${note.title}`);
-    console.log(`Body: ${note.body}`);
-  }
+var logNote = note => {
+  debugger;
+  console.log("----");
+  console.log(`Title: ${note.title}`);
+  console.log(`Body: ${note.body}`);
 };
 
 module.exports = {
